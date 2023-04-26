@@ -1,0 +1,205 @@
+.text-primary{
+color: #6d97a5!important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+}
+.navbar .nav-item{
+    padding: 10px;
+}
+
+/* header start*/
+.btn-primary {
+    background-color: #6d97a5;
+    border-color: #6d97a5;
+}
+.home
+{
+    background-image: url(../img/img/supreme-court-cassation-rome-italy.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.home p 
+{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+
+
+.home .header-icon{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding: 12px 15px;
+    margin: 10px 0px;
+
+
+}
+.home .header-icon:hover{
+    cursor: pointer;
+}
+/* header end */
+/* aboutme start */
+.hero .hero-img {
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+.hero .hero-img:after {
+        background-position: center center;
+    background-size: cover;
+    content: '';
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    left: 200px;
+    bottom: -135px;
+    background-image: url(../img/img/hero/portrait-male-student-with-books.jpg);
+    
+    
+}
+.hero .hero-img::before {
+        background-position: center center;
+    background-size: cover;
+    content: '';
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 450px;
+    bottom: -30px;
+    background-image: url(../img/img/hero/rewriting-text.jpg);
+    
+    
+}
+.hero .btn.btn-dark{
+    font-size:12px;
+    color: white;
+    transition: all 0.5s;
+
+
+}
+.hero .btn.btn-dark:hover{
+    font-size:12px;
+    color: black;
+    background-color: white;
+    
+
+}
+.hero .btn.btn-light{
+    font-size:12px;
+    color: black;
+    border:solid 1px black;
+    background-color: white;
+    
+    transition: all 0.5s;
+
+
+}
+.hero .btn.btn-light:hover{
+    font-size:12px;
+    color: white;
+    border:solid 1px black;
+    background-color: black;
+    
+    
+
+}
+/* aboutMe end */
+/* services start */
+
+.services .services-unit{
+    background-color: white;
+}
+
+
+.services .services-unit 
+{
+border-radius: 10px;
+border-bottom: solid 7px white;
+}
+
+.services .services-unit:hover 
+{
+
+border-bottom: solid 7px #6d97a5;
+}
+
+/* services end */
+.operation i{
+    font-size: 72px;
+    padding: 20px 10px;
+    margin: 20px 10px;
+    position: relative;
+}
+
+.operation .crcle1::after{
+    font-size: 56px;
+    position: absolute;
+    content: "1";
+    left: 33px;
+    bottom: 30px;
+}
+.operation .crcle2::after{
+    font-size: 56px;
+    position: absolute;
+    content: "2";
+    left: 30px;
+    bottom: 30px;
+}
+.operation .crcle3::after{
+    font-size: 56px;
+    position: absolute;
+    content: "3";
+    left: 30px;
+    bottom: 27px;
+}
+.operation .crcle4::after{
+    font-size: 56px;
+    position: absolute;
+    content: "4";
+    left: 25px;
+    bottom: 30px;
+}
+/* contact-us starts */
+
+.contacts-icons i
+{
+padding: 35px 25px;
+background-color: #f8f9fa;
+border-radius: 50%;
+color: black;
+transition: all 0.5s;
+
+}
+.contacts-icons i:hover
+{
+color: white;
+padding: 35px 25px;
+background-color: black;
+border-radius: 50%;
+
+}
+/* contact-us end */
+/* footer */
+
+
+footer p {
+    font-size: 13px;
+    word-spacing: 2px;
+        line-height: 1.6;
+    margin: 0;
+    color: silver;
+}
+.hidden{
+    overflow: hidden;
+}
+
+
+.backgroundColorChange {
+    background-color: #6d97a5;
+}
